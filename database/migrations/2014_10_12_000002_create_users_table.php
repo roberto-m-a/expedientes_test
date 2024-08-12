@@ -38,6 +38,13 @@ return new class extends Migration
                 'email_verified_at'=>now(),
                 'password'=>Hash::make('l~NZ7O2.9Vk4'),
                 'IdPersonal'=>10001,
+            ],
+            [
+                'id'=>10002,
+                'email'=>'docente.test@oaxaca.tecnm.mx',
+                'email_verified_at'=>now(),
+                'password'=>Hash::make('docentePass7@'),
+                'IdPersonal'=>10002,
             ]
         ]);
     }

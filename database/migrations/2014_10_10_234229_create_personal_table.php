@@ -36,6 +36,13 @@ return new class extends Migration
                 'Apellidos'=>'test',
                 'Sexo'=>'Mujer',
                 'IdDepartamento'=>1000,
+            ],
+            [
+                'IdPersonal'=>10002,
+                'Nombre'=>'docente',
+                'Apellidos'=>'test',
+                'Sexo'=>'Hombre',
+                'IdDepartamento'=>1000,
             ]
         ]);
     }
