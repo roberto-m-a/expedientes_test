@@ -21,7 +21,7 @@ return new class extends Migration
         });
         DB::table('docente')->insert([
             [
-                'IdDcoente'=>1,
+                'IdDocente'=>1,
                 'IdPersonal'=>10002,
                 'GradoAcademico'=>'Licenciatura',
             ]
